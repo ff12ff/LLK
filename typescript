@@ -1,0 +1,26 @@
+Script started on 2022-03-19 23:29:12+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;username@ARCh-PC:~/GITok/LLK/os/LLK[?2004h[username@ARCh-PC LLK]$ exitsudo traceroute -I yandex.ru[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo traceroute -I yandex.ru[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo systemctl start vmware-networks.service[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo traceroute -I yandex.ru exit
+[?2004l[sudo] пароль для username: 
+Cannot handle "packetlen" cmdline arg `exit' on position 2 (argc 3)
+]0;username@ARCh-PC:~/GITok/LLK/os/LLK[?2004h[username@ARCh-PC LLK]$ sudo traceroute -I yandex.ru exit[K[K[K[K
+[?2004ltraceroute to yandex.ru (77.88.55.80), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  4.431 ms  4.421 ms  4.418 ms
+ 2  10.17.135.114 (10.17.135.114)  89.845 ms  89.843 ms  89.841 ms
+ 3  * * *
+ 4  * * *
+ 5  mmon-cr01-be79.100.spb.mts-internet.net (212.188.44.101)  89.826 ms  89.824 ms  89.822 ms
+ 6  oct-cr01-be4.78.spb.mts-internet.net (195.34.53.14)  89.820 ms  187.586 ms  187.764 ms
+ 7  oct-cr03-be2.78.spb.mts-internet.net (212.188.1.102)  187.500 ms  95.767 ms  95.776 ms
+ 8  oct-cr05-ae0.16.spb.mts-internet.net (212.188.2.150)  95.976 ms  95.974 ms  95.972 ms
+ 9  oct-cr05-ae11.0.spb.mts-internet.net (212.188.2.142)  95.970 ms  96.006 ms  102.272 ms
+10  * * *
+11  * * *
+12  * * *
+13  m9-cr04-be8.77.msk.mts-internet.net (212.188.54.213)  106.933 ms  102.615 ms  95.663 ms
+14  212.188.33.111 (212.188.33.111)  101.824 ms  102.062 ms  53.114 ms
+15  * * *
+16  yandex.ru (77.88.55.80)  89.479 ms  89.477 ms  89.475 ms
+]0;username@ARCh-PC:~/GITok/LLK/os/LLK[?2004h[username@ARCh-PC LLK]$ sudo traceroute -I yandex.ru exit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[?2004lexit
+
+Script done on 2022-03-19 23:29:43+03:00 [COMMAND_EXIT_CODE="0"]
